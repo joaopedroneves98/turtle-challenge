@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FC8724BA-FAE1-49D4-8213-8F21AD0DA364}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{129AC097-35E4-4568-BF53-5FE8BA5B556F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurtleChallenge.App", "TurtleChallenge.App\TurtleChallenge.App.csproj", "{7D35D202-2510-43DA-A1F8-AD0CC1D9C710}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution items", "solution items", "{63A8A25E-5A90-4FE5-A759-54087837C48C}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurtleChallenge.Tests", "TurtleChallenge.Tests\TurtleChallenge.Tests.csproj", "{6FABEA37-1E91-4FB9-A376-84B03EEA7639}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D35D202-2510-43DA-A1F8-AD0CC1D9C710} = {FC8724BA-FAE1-49D4-8213-8F21AD0DA364}
+		{6FABEA37-1E91-4FB9-A376-84B03EEA7639} = {129AC097-35E4-4568-BF53-5FE8BA5B556F}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D35D202-2510-43DA-A1F8-AD0CC1D9C710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D35D202-2510-43DA-A1F8-AD0CC1D9C710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D35D202-2510-43DA-A1F8-AD0CC1D9C710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D35D202-2510-43DA-A1F8-AD0CC1D9C710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FABEA37-1E91-4FB9-A376-84B03EEA7639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FABEA37-1E91-4FB9-A376-84B03EEA7639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FABEA37-1E91-4FB9-A376-84B03EEA7639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FABEA37-1E91-4FB9-A376-84B03EEA7639}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
